@@ -9,7 +9,7 @@ export default function Highlight(){
             <div className="w-2/5">
                 <div className="absolute flex flex-col gap-10 max-w-full max-h-full w-2/5 h-[100px] pl-7 pt-7 text-white text-4xl font-thin">
                     "X" Series Newly Launched <br />
-                    <span className="text-xl font-montserrat">
+                    <span className="text-xl">
                     With a beautiful matte black finish, the X Series is optimized for dignified and darker stages such as WORSHIP <br /> concerts. <br />
                 The first model 703X is configured with 5 shells and 7 cymbals to suit different styles of music and drummers. <br /><br />
                     </span>
