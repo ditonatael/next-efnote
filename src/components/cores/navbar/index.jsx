@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="">
+    <div className="fixed z-40">
       {/* MD to LG */}
       <div className="md:bg-white h-[115px] w-screen text-black flex flex-col justify-between py-2">
         {/* Top */}
@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
 
         {/* BOTTOM */}
-        <div className="flex justify-center gap-40">
+        <div className="flex justify-center gap-40 font-poppins">
           <Link href="/products">
             <span>Products</span>
           </Link>

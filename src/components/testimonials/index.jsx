@@ -11,7 +11,7 @@ export default function Testimonials(){
                 </div>
             </div>
             {/* TESTIMONIALS */}
-            <div className="flex justify-between items-center mt-20 pt-5 px-40 bg-zinc-50 h-[400px]">
+            <div className="flex justify-between items-center mt-20 pt-5 px-40 bg-white h-[400px]">
                 <span className="flex flex-col justify-between items-center gap-5">
                     <img src="/testimonials/echaSoemantri.webp" alt="" 
                         className="object-cover w-24 h-24 mx-2 rounded-full"

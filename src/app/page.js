@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* HERO SECTION */}
-      
+
       <HeroCarousel />
 
       {/* COMPANY OVERVIEW */}
@@ -39,11 +39,8 @@ export default function Home() {
             <span className=" text-gray-100 font-bold text-5xl">
               Beauty Quality Originality<br /><br />
             </span>
-            <div className=" border-2 border-gray-500 text-gray-100 font-bold w-[180px] h-[30px] rounded-full text-base">
-              About EFNOTE
-            </div>
           </div>         
-        <img src="/EFNOTE-Mini-1.webp" className="h-[200px] w-full object-cover opacity-40"/>
+        <img src="/EFNOTE-Mini-1.webp" className="h-[200px] w-full object-cover opacity-40" alt="image"/>
       </div>
     </div>
   )

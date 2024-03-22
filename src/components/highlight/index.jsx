@@ -4,7 +4,7 @@ export default function Highlight(){
     return(
         <div className="container flex flex-row min-w-full w-full h-[700px] bg-zinc-600">
             <div className="w-3/5">
-                <img src="/highlight/efnoteprox_kit_spotlight_wide_L.webp" className=""/>
+                <img src="/highlight/efnoteprox_kit_spotlight_wide_L.webp" alt="image"/>
             </div>
             <div className="w-2/5">
                 <div className="absolute flex flex-col gap-10 max-w-full max-h-full w-2/5 h-[100px] pl-7 pt-7 text-white text-4xl font-thin">

@@ -1,10 +1,10 @@
 export default function CompanyOverview() {
   return (
-    <div className="container flex flex-row min-w-full w-full h-[700px] bg-zinc-600">
+    <div className="container flex flex-row min-w-full w-full h-full bg-zinc-600">
       <div className="w-3/5">
         <img
           src="/companyOverview/efnotepro_versengold_06_L.webp"
-          className=""
+          alt="image"
         />
       </div>
       <div className="w-2/5">
@@ -18,7 +18,7 @@ export default function CompanyOverview() {
             instruments.
           </span>
         </div>
-        <img src="/companyOverview/efnotepro_versengold_06_R.webp" alt="" />
+        <img src="/companyOverview/efnotepro_versengold_06_R.webp" alt="image" />
       </div>
     </div>
   );
