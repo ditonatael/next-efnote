@@ -1,14 +1,12 @@
 export default function CompanyOverview() {
   return (
-    <div className="container flex flex-row min-w-full w-full h-full bg-zinc-600">
-      <div className="w-3/5">
-        <img
-          src="/companyOverview/efnotepro_versengold_06_L.webp"
-          alt="image"
-        />
+    <div className="container flex flex-row min-w-full w-full h-[45rem] bg-zinc-600">
+      {/* RIGHT */}
+      <div className="w-3/5 bg-[url('/companyOverview/efnotepro_versengold_06_L.webp')] bg-cover">
       </div>
-      <div className="w-2/5">
-        <div className="absolute flex flex-col items-center gap-10 max-w-full max-h-full w-2/5 h-[100px] pl-7 pt-7 text-white text-4xl font-thin text-center">
+      {/* LEFT */}
+      <div className="w-2/5 h-[45rem] bg-[url('/companyOverview/efnotepro_versengold_06_R.webp')] bg-cover">
+        <div className="absolute flex flex-col items-center gap-10 max-w-full max-h-full w-2/5 pl-7 pt-7 text-white text-4xl font-thin text-center">
           -About Efnote- <br />
           <span className="text-xl font-thin">
             Efnote Want to create more valuable musical instruments with more free
@@ -18,7 +16,6 @@ export default function CompanyOverview() {
             instruments.
           </span>
         </div>
-        <img src="/companyOverview/efnotepro_versengold_06_R.webp" alt="image" />
       </div>
     </div>
   );
