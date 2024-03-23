@@ -17,7 +17,6 @@ export default function HeroCarousel() {
         </div> 
         <div id="item4" className="carousel-item w-screen">
           <img src="/hero/efnoteprox_engineer_ipad_caro.webp" alt='image' />
-          
         </div>
       </div> 
   );
