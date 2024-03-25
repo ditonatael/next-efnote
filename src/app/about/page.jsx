@@ -1,7 +1,6 @@
 export default function About() {
   return (
     <div className="h-auto bg-black">
-      {/*ABOUT EFNOTE*/}
       <div className="h-auto bg-black">
         <div className=" absolute flex h-[300px] w-full flex-col items-center justify-center gap-10">
           <div className="text-4xl text-gray-200">About EFNOTE</div>
@@ -18,7 +17,7 @@ export default function About() {
           className="h-[300px] w-full object-cover opacity-20"
         />
       </div>
-      {/* BIRTH STORY */}
+
       <div className="flex h-auto flex-col bg-gray-100 pt-10">
         <div className="flex h-auto w-full flex-col items-center gap-4 bg-white pt-3">
           <div className="mobile:text-xl mobile:font-bold md:text-3xl md:font-thin">

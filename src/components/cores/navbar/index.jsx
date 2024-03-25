@@ -4,7 +4,6 @@ export default function Navbar() {
   return (
     <div className="fixed z-40 w-screen">
       <div className=" flex h-[115px] flex-col justify-between bg-white py-2 md:text-black">
-        {/* Top */}
         <div className=" md:flex md:justify-between md:px-3 md:pt-2">
           <div className="flex flex-1 justify-center lg:pl-48">
             <Link href="/">
@@ -39,7 +38,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* BOTTOM */}
         <div className=" font-poppins flex justify-between px-16 md:px-40">
           <Link href="/products">
             <span>Products</span>

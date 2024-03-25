@@ -1,9 +1,7 @@
 export default function ProductList() {
   return (
     <div className=" flex flex-col items-center gap-3">
-      {/* PRODUCT LIST */}
       <div className=" grid gap-4 pt-5 mobile:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
-        {/* EFNOTE PRO */}
         <div className="mobile:h-[200px] mobile:w-[200px] sm:h-[200px] sm:w-[200px] md:h-[200px] md:w-[200px] lg:h-[325px] lg:w-[325px]">
           <img
             src="/products/efnotePro/EFNOTEPRO_tile.webp"
@@ -33,7 +31,6 @@ export default function ProductList() {
           />
         </div>
 
-        {/* EFNOTE MINI */}
         <div className="mobile:h-[200px] mobile:w-[200px] sm:h-[200px] sm:w-[200px] md:h-[200px] md:w-[200px] lg:h-[325px] lg:w-[325px]">
           <img
             src="/products/efnoteMini/EFNOTEmini_tile.webp"
@@ -63,7 +60,6 @@ export default function ProductList() {
           />
         </div>
 
-        {/* EFNOTE 7 */}
         <div className="mobile:h-[200px] mobile:w-[200px] sm:h-[200px] sm:w-[200px] md:h-[200px] md:w-[200px] lg:h-[325px] lg:w-[325px]">
           <img
             src="/products/efnoteSeven/EFNOTE7_tile.webp"
@@ -93,7 +89,6 @@ export default function ProductList() {
           />
         </div>
 
-        {/* EFNOTE 5 */}
         <div className="mobile:h-[200px] mobile:w-[200px] sm:h-[200px] sm:w-[200px] md:h-[200px] md:w-[200px] lg:h-[325px] lg:w-[325px]">
           <img
             src="/products/efnoteFive/EFNOTE5_tile.webp"
@@ -123,7 +118,6 @@ export default function ProductList() {
           />
         </div>
 
-        {/* EFNOTE 3 */}
         <div className="mobile:h-[200px] mobile:w-[200px] sm:h-[200px] sm:w-[200px] md:h-[200px] md:w-[200px] lg:h-[325px] lg:w-[325px]">
           <img
             src="/products/efnoteThree/EFNOTE3_tile.webp"
@@ -153,7 +147,6 @@ export default function ProductList() {
           />
         </div>
       </div>
-      {/* TESTIMONIALS */}
 
       <section className="my-8 h-auto">
         <div className="container mx-auto mb-4 flex flex-col items-center pb-6 md:p-10 md:px-12">
