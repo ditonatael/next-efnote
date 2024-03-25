@@ -3,27 +3,27 @@ export default function Testimonials() {
     <div>
       {/* TITLE */}
       <div className="flex flex-col items-center justify-center gap-6">
-        <div className="text-5xl font-bold font-mono">Feedbacks</div>
-        <div className="text-sm font-sans text-gray-500">
+        <div className="font-mono text-5xl font-bold">Feedbacks</div>
+        <div className="text-center font-sans text-sm text-gray-500">
           Feedbacks from musicians who are using Efnote products
         </div>
       </div>
       {/* TESTIMONIALS */}
-      <div className="flex justify-between items-center mt-20 pt-5 px-40 bg-white h-[400px]">
-        <span className="flex flex-col justify-between items-center gap-5">
-          <div className="w-24 h-24 mx-2 rounded-full bg-[url('/testimonials/echaSoemantri.webp')] bg-cover bg-center"></div>
-          <p className="text-sm font-serif text-center">
+      <div className="mt-20 flex h-[400px] items-center justify-between bg-white px-40 pt-5 mobile:flex mobile:h-auto mobile:flex-col mobile:gap-6 md:gap-8">
+        <span className="flex flex-col items-center justify-between gap-5">
+          <div className="mx-2 h-24 w-24 rounded-full bg-[url('/testimonials/echaSoemantri.webp')] bg-cover bg-center"></div>
+          <p className="text-center font-serif text-sm">
             "Since I discovered Efnote, I was amazed by their sound.
             <br />
             I use them live and in the studio, and they always
             <br />
             deliver the best!"
           </p>
-          <div className="pt-5">Echa Soemantri</div>
+          <div className="pt-5 mobile:text-center">Echa Soemantri</div>
         </span>
-        <span className="flex flex-col justify-between items-center gap-5">
-          <div className="w-24 h-24 mx-2 rounded-full bg-[url('/testimonials/ikmalTobing.webp')] bg-cover bg-center"></div>
-          <p className="text-sm font-serif text-center">
+        <span className="flex flex-col items-center justify-between gap-5">
+          <div className="mx-2 h-24 w-24 rounded-full bg-[url('/testimonials/ikmalTobing.webp')] bg-cover bg-center"></div>
+          <p className="text-center font-serif text-sm">
             "Efnote has been a game-changer for me.
             <br />
             It provides a clean and easy to set
@@ -34,9 +34,9 @@ export default function Testimonials() {
           </p>
           <div>Ikmal Tobing</div>
         </span>
-        <span className="flex flex-col justify-between items-center gap-5">
-          <div className="w-24 h-24 mx-2 rounded-full bg-[url('/testimonials/Yoiqball.webp')] bg-cover bg-center"></div>
-          <p className="text-sm font-serif text-center">
+        <span className="flex flex-col items-center justify-between gap-5">
+          <div className="mx-2 h-24 w-24 rounded-full bg-[url('/testimonials/Yoiqball.webp')] bg-cover bg-center"></div>
+          <p className="text-center font-serif text-sm">
             "Never found an electric drum like efnote.
             <br />
             it has great features and sound"

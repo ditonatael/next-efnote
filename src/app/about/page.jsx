@@ -1,11 +1,11 @@
 export default function About() {
   return (
-    <div className="bg-black h-auto">
+    <div className="h-auto bg-black">
       {/*ABOUT EFNOTE*/}
-      <div className="h-[300px] bg-black">
-        <div className=" w-full h-[300px] absolute flex flex-col justify-center items-center gap-10">
-          <div className="text-gray-200 text-4xl">About EFNOTE</div>
-          <div className="text-white text-lg font-thin text-center">
+      <div className="h-auto bg-black">
+        <div className=" absolute flex h-[300px] w-full flex-col items-center justify-center gap-10">
+          <div className="text-4xl text-gray-200">About EFNOTE</div>
+          <div className="text-center text-lg font-thin text-white">
             EFNOTE is a brand for electronic true musical instruments based on
             the beliefs of
             <br />
@@ -19,10 +19,12 @@ export default function About() {
         />
       </div>
       {/* BIRTH STORY */}
-      <div className="bg-gray-100 h-96 flex flex-col pt-10">
-        <div className="bg-white w-full h-96 flex flex-col gap-4 pt-3 items-center">
-          <div className="text-3xl font-thin">- Birth Story -</div>
-          <span className="text-center min-w-60 w-full text-lg font-thin">
+      <div className="flex h-auto flex-col bg-gray-100 pt-10">
+        <div className="flex h-auto w-full flex-col items-center gap-4 bg-white pt-3">
+          <div className="mobile:text-xl mobile:font-bold md:text-3xl md:font-thin">
+            - Birth Story -
+          </div>
+          <span className="w-full min-w-60 text-center text-lg font-thin">
             Want to create more valuable musical instruments with more free
             designs, with insane ideas.
             <br />
@@ -38,12 +40,12 @@ export default function About() {
           </span>
         </div>
       </div>
-      <div className="bg-gray-100 h-96 flex flex-col pt-10">
-        <div className="bg-white w-full h-[400px] flex flex-col gap-4 pt-3 items-center">
-          <div className="text-3xl font-thin">
+      <div className="flex h-auto flex-col bg-gray-100 pt-10 mobile:pt-10">
+        <div className="flex h-auto w-full flex-col items-center gap-4 bg-white pt-3">
+          <div className="mobile:text-xl mobile:font-bold md:text-3xl md:font-thin">
             - Be a true musical instrument -
           </div>
-          <span className="text-center min-w-60 w-full text-lg font-thin">
+          <span className="w-full min-w-60 text-center text-lg font-thin">
             Musical instruments are something that will be loved forever. <br />{" "}
             It is worth not being swept away by the times. <br /> It has beauty,
             and your skills are improved as you get closer. <br />
@@ -57,10 +59,12 @@ export default function About() {
           </span>
         </div>
       </div>
-      <div className="bg-gray-100 h-[670px] flex flex-col pt-10">
-        <div className="bg-white w-full h-[600px] flex flex-col gap-4 pt-3 items-center">
-          <div className="text-3xl font-thin">- Philosophy -</div>
-          <span className="text-center min-w-60 w-full text-lg font-thin">
+      <div className="flex h-auto flex-col bg-gray-100 pt-10">
+        <div className="flex h-auto w-full flex-col items-center gap-4 bg-white pt-3">
+          <div className="mobile:text-xl mobile:font-bold md:text-3xl md:font-thin">
+            - Philosophy -
+          </div>
+          <span className="w-full min-w-60 text-center text-lg font-thin">
             Beauty + Quality + Originality <br /> <br />
             Every instrument has beauty. The beauty of materials. The beauty of
             shape. <br />

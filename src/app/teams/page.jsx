@@ -18,9 +18,9 @@ export default function OurTeams() {
   }, []);
 
   return (
-    <section className="py-6 dark:bg-gray-100 dark:text-gray-800">
-      <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-        <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">
+    <section className="h-auto py-6 dark:bg-gray-100 dark:text-gray-800">
+      <div className="container mx-auto flex flex-col items-center justify-center space-y-8 p-4 mobile:p-10">
+        <h1 className="text-center text-4xl font-bold leading-none mobile:text-5xl">
           Our team
         </h1>
         <p className="max-w-2xl text-center font-sans text-gray-500">
@@ -30,7 +30,7 @@ export default function OurTeams() {
           {team.map((team, index) => {
             return (
               <div
-                className="flex flex-col justify-center m-8 text-center"
+                className="m-8 flex flex-col justify-center text-center"
                 key={index}
               >
                 <Image
@@ -38,7 +38,7 @@ export default function OurTeams() {
                   width={100}
                   height={100}
                   loading="lazy"
-                  className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+                  className="mb-4 h-24 w-24 flex-shrink-0 self-center rounded-full bg-cover bg-center dark:bg-gray-500"
                   alt="image"
                 />
                 <p className="text-xl font-semibold leading-tight">

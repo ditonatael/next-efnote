@@ -4,7 +4,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    'node_modules/flowbite-react/lib/esm/**/*.js'
+    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
     screens: {
@@ -13,11 +13,8 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      xxl:""
-    }
+      xxl: "",
+    },
   },
-  plugins: [
-    require("daisyui"),
-    require("flowbite/plugin")
-],
+  plugins: [require("daisyui"), require("flowbite/plugin")],
 };
