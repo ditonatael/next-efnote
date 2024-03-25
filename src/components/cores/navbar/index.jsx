@@ -2,12 +2,11 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="fixed z-40">
-      {/* MD to LG */}
-      <div className="md:bg-white h-[115px] w-screen text-black flex flex-col justify-between py-2">
+    <div className="fixed z-40 w-screen">
+      <div className=" flex h-[115px] flex-col justify-between bg-white py-2 md:text-black">
         {/* Top */}
-        <div className="flex justify-between px-3 pt-2">
-          <div className="w-full flex justify-center pl-40">
+        <div className=" md:flex md:justify-between md:px-3 md:pt-2">
+          <div className="flex flex-1 justify-center lg:pl-48">
             <Link href="/">
               <img
                 src="/EFNOTE_logo.webp"
@@ -16,37 +15,37 @@ export default function Navbar() {
               />
             </Link>
           </div>
-          <div className="flex gap-5 pr-10">
+          <div className=" hidden lg:flex lg:gap-5 lg:pr-10">
             <img
               src="/icons/iconIg.webp"
               alt="Instagram"
-              className="w-[24px] h-[24px]"
+              className="h-[24px] w-[24px]"
             />
             <img
               src="/icons/iconFb.webp"
               alt="Facebook"
-              className="w-[24px] h-[24px]"
+              className="h-[24px] w-[24px]"
             />
             <img
               src="/icons/iconTw.webp"
               alt="Twitter"
-              className="w-[24px] h-[24px]"
+              className="h-[24px] w-[24px]"
             />
             <img
               src="/icons/iconYt.webp"
               alt="Youtube"
-              className="w-[24px] h-[24px]"
+              className="h-[24px] w-[24px]"
             />
           </div>
         </div>
 
         {/* BOTTOM */}
-        <div className="flex justify-center gap-40 font-poppins">
+        <div className=" font-poppins flex justify-between px-16 md:px-40">
           <Link href="/products">
             <span>Products</span>
           </Link>
           <Link href="/teams">
-          <span>Teams</span>
+            <span>Teams</span>
           </Link>
           <Link href="/about">
             <span>About</span>
